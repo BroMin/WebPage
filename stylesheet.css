@@ -1,0 +1,106 @@
+*{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    list-style : none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin : 0px;
+    padding : 0px;
+}
+
+/* Home페이지 시작 */
+.Home{
+    background-image : url("images/bg.jpg");
+    background-size : cover;
+    height:745px;
+}
+
+.header{
+    width : cover;
+    height : 120px;
+    display : flex; 
+}
+
+.nav{
+    position: fixed;
+    width : 1520px;
+    justify-content: flex-end;
+    display : flex;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.nav > li{
+    margin-left : 30px;
+    margin-right : 40px;
+    line-height : 120px;
+    font-size : 20px;
+}
+
+.nav > li > a {
+    color : white;
+}
+
+.nav>li>a:hover{
+    color : blue;
+}
+
+.intro_text{
+    width : 100%;
+    /*마진 상우하좌*/
+    margin : 330px auto 350px auto;
+    text-align : center;
+}
+
+.intro_text>h1,
+.intro_text>h4{
+    color : white;
+}
+
+.intro_text>h1{
+    font-size : 60px;
+}
+
+.intro_text>h4{
+    font-size : 25px;
+}
+
+/*Home페이지 끝 */
+
+/*Project 페이지 시작*/
+.Project{
+    background-image : url("images/bg.jpg");
+    background-size : cover;
+    height:745px;
+}
+/*Project 페이지 끝*/
+
+/*Activity 페이지 시작*/
+.Activity{
+    background-image : url("images/bg.jpg");
+    background-size : cover;
+    height:744px;
+}
+/*Activity 페이지 끝*/
+
+
+/*About 페이지 시작*/
+.About{
+    background-color : red;
+    background-size : cover;
+    height:745px;
+}
+
+.profile_picture>img{
+    float : left;
+    margin : 250px auto 350px 250px;
+    border-radius : 70%;
+    border : 2px solid;
+    height : 300px;
+    width : 300px;
+}
+
+.texts>li{
+    font-size : 40px;
+}
+/*About 페이지 끝*/
