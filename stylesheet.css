@@ -16,7 +16,7 @@
 
 .header{
     width : cover;
-    height : 120px;
+    height : 110px;
     display : flex; 
 }
 
@@ -33,7 +33,7 @@
 .nav > li{
     margin-left : 30px;
     margin-right : 40px;
-    line-height : 120px;
+    line-height : 65px;
     font-size : 20px;
 }
 
@@ -71,7 +71,7 @@
     background-image : url("images/bg.jpg");
     background-size : cover;
     height:100vh;
-}
+}   
 /*Project 페이지 끝*/
 
 /*Activity 페이지 시작*/
@@ -92,15 +92,18 @@
 
 .About_left{
     width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .About_left>img{
-    float : left;
-    margin : 250px auto 350px 100px;
+    margin-bottom: 350px;
     border-radius : 70%;
-    border : 2px solid;
-    height : 250px;
-    width : 250px;
+    border : 1px solid;
+    height : 200px;
+    width : 200px;
 }
 
 .About_right{
@@ -109,9 +112,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.About_right>li{
-    font-size : 40px;
+.About_right_texts{
+    background-color: yellow;
+    font-size : 50px;
+    width : 90%;
+    height : 90%;
+    margin-top: 60px;
 }
+
 /*About 페이지 끝*/
