@@ -7,6 +7,10 @@
     padding : 0px;
 }
 
+.login{
+    height:100vh;
+}
+
 /* Home페이지 시작 */
 .Home{
     background-image : url("images/bg.jpg");
@@ -95,7 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: blue;
 }
 
 .About_left>img{
